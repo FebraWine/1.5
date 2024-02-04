@@ -1,0 +1,162 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+
+.header {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  min-width: 320px;
+  height: 88px;
+}
+
+
+@media (max-width: 767px) {
+  .header__contacts
+  .header__contacts-btn-call,
+  .header__contacts-btn-chat,
+  .header__contacts-btn-profile,
+  .head_divider--one {
+    display: none;
+    margin-right: 0;
+  }
+   
+}
+
+.header__status-contacts-btn-repair {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header__contacts-btn-call,
+.header__contacts-btn-chat,
+.header__contacts-btn-profile {
+  margin-right: 10px;
+}
+
+.header__contacts {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.header__info {
+  position: relative;
+  margin-left: 12px;
+}
+
+
+
+.header-PC__title-h1 {
+  width:288px; 
+  position: relative;
+  margin-left: 0;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight:bold;
+  font-family: 'TT Lakes Condensed';
+  
+}
+
+.header-PC__title-h1::before {
+   content: '';
+   position: absolute;
+   height: 40px;
+   background-color:#41F6D7 ;
+   padding:2px;
+   margin-left: -25px;
+   border-radius: 2px;
+}
+
+.header-PC {
+  background-color:#F8F8F8;
+}
+
+.header-PC__title {
+  padding-left:25px;
+
+}
+
+
+.header__status-contacts-btn,
+.header__info-btn,
+.header__contacts-btn {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  background-color:white;
+  opacity: 1;
+
+}
+
+.header__status-contacts-btn:hover,
+.header__info-btn:hover,
+.header__contacts-btn:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition-duration: 0.5s;
+}
+
+@media (min-width:767px) {
+
+.header__info-btn--divider::after {
+  content: '';
+   position: absolute;
+   width: 2px;
+   border-radius: 2px;
+   background-color: #EAEAEA;
+   height: 32px;
+   margin-left: 18px;
+   top: 25%;
+}
+
+.header__info-btn {
+  margin-right:17px;
+}
+
+}
+
+.header__status--divider::before {
+  content: '';
+   position: absolute;
+   width: 2px;
+   border-radius: 2px;
+   background-color: #EAEAEA;
+   height: 32px;
+   margin-left: -10px;
+   top: 30%
+}
+
+.header__info-logo {
+  margin-left: 16px;
+  position: relative;
+}
+
+.header__status {
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

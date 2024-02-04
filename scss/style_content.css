@@ -1,0 +1,184 @@
+.content__main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+
+
+    padding-top: 0px;
+}
+
+
+
+
+.content {
+    background-color:#F8F8F8;
+    padding-left:16px ;
+    max-width: 1120px;
+    margin-right: 0;
+    padding-bottom:40px;
+}
+
+.content__main-img {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 20px;
+}
+  
+
+
+.content__main-text-p2
+.content__main-text-p {
+  padding: 0;
+  font-size: 14px;
+  line-height: 18px;
+
+  
+
+}
+.content__main-text {
+
+ margin: 0;
+ padding: 0;
+ margin-right:0;
+
+}
+
+.content__main-text-icon {
+  font-size: 16px;
+  margin-left: 14px;
+  font-weight: bold;
+}
+
+.content__main-text-btn {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.content__main-text-btn:hover {
+  background-color:rgb(233, 230, 224);
+  border-radius: 10%;
+}
+  
+
+
+.content__main-img-scp {
+    margin-left: auto;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+@media (max-width:1119px) {
+    .content__main-text-count {
+      display: none
+    }
+
+  }
+
+
+
+  @media (min-width:1119px) {
+    .content__main-text {
+      margin-left: 24px;
+    }
+
+    .content__main {
+      padding-top: 50px;
+    }
+
+
+}
+
+@media (min-width:1120px) {
+    .content__main-img-scp {
+      width: 532px;
+      height: auto;
+    }
+}
+
+@media (max-width:767px) {
+    .content__main {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width:767px) {
+    .content__main-text-p2 {
+      display:none
+    }
+  
+    .content__main-img {
+      margin-left: 0;
+      margin-right: 16px;
+    }
+
+
+}
+
+
+@media (max-width:1119px) {
+    .content__main-img-scp {
+        width: 360px;
+        height: auto;
+        margin-right: 20px;
+        margin-left: auto;
+    }
+    .text {
+      margin-right:10px
+    }
+}
+
+@media (max-width:767px) {
+  .content__main-img {
+    max-width: 320px;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+  
+  .content__main-img-scp {
+        width: 320px;
+        margin: 0;
+        padding: 0;
+        margin-left: -16px;
+    }
+
+}
+
+
+
+@media (max-width:320px) {
+.content__main-text,
+.content__main-text_p,
+.content__main,
+.navigation  {
+  max-width: 320px;
+    }
+}
+
+
+@media (min-width:767px) {
+  .content__main-img {
+  padding-left: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+  
+  
+  
