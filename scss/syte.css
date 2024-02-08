@@ -41,6 +41,10 @@ h2 {
     background-color: white;
 }
 
+.swiper-slide--box {
+    cursor: pointer;
+}
+
 .swiper-pagination {
     position: absolute;
     top: 180px !important
@@ -153,6 +157,9 @@ h2 {
     transform: rotate(180deg);
 }
 
+.swiper-slide--box:hover {
+    opacity: 0.8;
+}
 
 
 
