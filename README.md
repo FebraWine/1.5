@@ -1,1 +1,1 @@
-github pages: https://febrawine.github.io/webpack-static-template/
+github pages: https://febrawine.github.io/1.5/
