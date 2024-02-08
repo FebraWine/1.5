@@ -50,33 +50,33 @@ h2 {
     top: 180px !important
 }
 
-.swiper-slide_icon {
+.swiper-slide-icon {
     position: absolute;
     top: 15px;
     right:20px;
     
 }
 
-.swiper-slide_acer {
+.swiper-slide-acer {
     position: absolute;
     top: 25px;
     left:20px
 }
 
-.swiper-slide_apple {
+.swiper-slide-apple {
     position: absolute;
     top: 15px;
     left:15px
 }
 
-.swiper-slide_samsung {
+.swiper-slide-samsung {
     position: absolute;
     top: 18px;
     left:15px
 }
 
 @media (max-width:499px) {
-   .swiper_btn {
+   .swiper-btn {
     display: none;
    }    
 }
@@ -106,25 +106,25 @@ h2 {
         margin-top: 15px;
     }
 
-    .swiper_btn-el {
+    .swiper-btn-el {
         text-decoration: none;
         border: none;
         background-color: #F8F8F8;
         margin-left: 25px;
     }
 
-    .swiper_btn-text {
+    .swiper-btn-text {
         color:#1B1C21;
         font-size: 16px;
         line-height: 24px;
         margin-left: 20px;
     }
 
-    .swiper_btn-img {
+    .swiper-btn-img {
        text-align: center;
     }
 
-    .swiper_btn-el:hover {
+    .swiper-btn-el:hover {
         cursor: pointer;
         background-color:#EAEAEA;
         border-radius: 5px;
@@ -141,7 +141,7 @@ h2 {
     margin-left: 25px;
 }
 
-.swiper_btn-el {
+.swiper-btn-el {
   margin-left:40px
 }
 
@@ -153,7 +153,7 @@ h2 {
 
 
 
-.swiper_btn-img--transform {
+.swiper-btn-img--transform {
     transform: rotate(180deg);
 }
 
