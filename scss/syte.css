@@ -27,6 +27,11 @@ h2 {
   height: 72px;
   border-radius: 6px;
   border: 1px solid #eaeaea;
+  cursor: pointer;
+}
+
+.swiper-slide--box {
+  display: none;
 }
 
 .swiper-slide {
@@ -38,11 +43,6 @@ h2 {
   align-items: center;
   width: 50px;
   background-color: white;
-}
-
-.swiper-slide--box {
-  display: none;
-  cursor: pointer;
 }
 
 .swiper-pagination {
@@ -90,6 +90,7 @@ h2 {
   }
 
   .swiper-slide--box {
+    display: none;
     width: 224px;
     height: 72px;
     margin-right: 20px;
